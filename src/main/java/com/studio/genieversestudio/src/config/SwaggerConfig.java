@@ -16,7 +16,7 @@ public class SwaggerConfig {
     public OpenAPI openAPI(){
         Info info = new Info()
                 .title("Genieverse Studio Genie Home")
-                .description("Genieverse Studio Genie Home(based web)")
+                .description("Genieverse Studio Genie Home Creation based web")
                 .version("v1.0.0");
         return new OpenAPI()
                 .components(new Components())
